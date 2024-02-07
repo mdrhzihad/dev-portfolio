@@ -1,0 +1,52 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+/* WELCOME AREA CSS */
+.orange-color {
+   color: orange; 
+}
+section {
+    display: flex;
+}
+.welcome-section {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.content-area {
+    padding-left: 80px;
+}
+.content-area a {
+    text-decoration: none;
+    color: white;
+    font-weight: 800px;
+    /* background-color:orange; */
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 30px;
+    border-radius: 5px;
+    }
+.conten-area h1 {
+    font-size: 100px;
+    font-weight: 400px;
+}
+.content-area p {
+    width: 80%;
+    text-align: justify;
+}
+.image-area img {
+    width: 80%;
+}
+.half-width {
+    width: 50%;
+}
+/* DREAM AREA CSS */
+  .dream-section {
+    display: flex;
+    flex-direction: row-reverse;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+     background-position: center right;
+  }
+  .dream-section a {
+    text-transform: uppercase;
+  }
